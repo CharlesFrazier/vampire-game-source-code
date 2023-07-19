@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>shop</class>
+ <widget class="QWidget" name="shop">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="player1">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>220</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>player1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="player2">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>220</y>
+     <width>111</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>player2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="atk">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>330</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>atk</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hp">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>360</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>hp</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cd">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>421</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cd</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dt">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>451</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>dt</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ar">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>510</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sp">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>391</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>sp</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pk">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>480</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>pk</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rec">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>360</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>recovery</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rate">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>430</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>coin rate</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>571</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>攻击</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>血量</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>速度</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>冷却</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>技能时间</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>拾取范围</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>攻击范围</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>复活次数</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>金币掉落</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>当前角色</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>增益</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>花费金额</string>
+    </property>
+   </column>
+   <item row="0" column="1">
+    <property name="text">
+     <string>+1</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>+5</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>+1</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>-1</string>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>+1</string>
+    </property>
+   </item>
+   <item row="4" column="2">
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>+1</string>
+    </property>
+   </item>
+   <item row="5" column="2">
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>+1</string>
+    </property>
+   </item>
+   <item row="6" column="2">
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>+1</string>
+    </property>
+   </item>
+   <item row="7" column="2">
+    <property name="text">
+     <string>50</string>
+    </property>
+   </item>
+   <item row="8" column="1">
+    <property name="text">
+     <string>+0.1</string>
+    </property>
+   </item>
+   <item row="8" column="2">
+    <property name="text">
+     <string>50</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>110</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>back</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>580</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="coin">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>500</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>作弊按钮</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>580</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;coin:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

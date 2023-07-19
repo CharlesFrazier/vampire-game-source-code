@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/8c115c84a56b4063ae4f6126d590defb.gif</file>
+        <file>img/2660468be94b4f2e7f3d75fa6d01a250.png</file>
+        <file>img/background.jpg</file>
+        <file>img/background.png</file>
+        <file>img/boss'k.gif</file>
+        <file>img/bosskill.png</file>
+        <file>img/c2.png</file>
+        <file>img/chooseBK.jpg</file>
+        <file>img/drop_add_hp.jpg</file>
+        <file>img/drop_add_hp.png</file>
+        <file>img/drop_coin.jpg</file>
+        <file>img/drop_coin.png</file>
+        <file>img/drop_exp.jpg</file>
+        <file>img/drop_exp.png</file>
+        <file>img/f47d7ecc239f40dd91fbf8b6a0039f52.gif</file>
+        <file>img/h1.png</file>
+        <file>img/h1_HP.png</file>
+        <file>img/h2.png</file>
+        <file>img/h2_HP.png</file>
+        <file>img/lonng.png</file>
+        <file>img/lonng_hit.png</file>
+        <file>img/mykill.png</file>
+        <file>img/R-C.png</file>
+        <file>img/re.gif</file>
+        <file>img/shorrt .png</file>
+        <file>img/shorrt_crazy.png</file>
+        <file>img/shorrt_hit.png</file>
+        <file>img/shorrt_left.gif</file>
+        <file>img/shorrt_right.gif</file>
+        <file>img/show.gif</file>
+        <file>img/startBK.jpg</file>
+        <file>img/startBK2.png</file>
+        <file>img/ston.png</file>
+        <file>img/w1.gif</file>
+        <file>img/w1.png</file>
+        <file>img/w2.gif</file>
+        <file>img/w2.png</file>
+        <file>img/h1_hit.png</file>
+        <file>img/h2_hit.png</file>
+        <file>img/fire.gif</file>
+    </qresource>
+</RCC>
